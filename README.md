@@ -1,6 +1,6 @@
 # BREADTH FIRST SEARCH
 
-<a href="https://github.com/learn-co-curriculum/bfs/">review of Learn readme and lab</a>
+<a href="https://github.com/learn-co-curriculum/bfs/" target="_">review of Learn readme and lab</a>
 
 # POP QUIZ
 
@@ -43,7 +43,7 @@ A graph is made up of vertices and edges:
 
 <br>
 
-<a href="https://docs.google.com/a/flatironschool.com/drawings/d/1t_ZeW7pAWtMtcPd8hu-HOttN2Plbk7mulnAzGeAVilE/edit?usp=sharing">Visual example</a>
+<a href="https://docs.google.com/a/flatironschool.com/drawings/d/1t_ZeW7pAWtMtcPd8hu-HOttN2Plbk7mulnAzGeAVilE/edit?usp=sharing" target="_">Visual example</a>
 
 
 <br>
