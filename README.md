@@ -76,6 +76,7 @@ breadth first search is a way of exploring the connectivity of a graph.
 
 
 ## pseudocode BFS: 
+```
 vertices =
 [
 	 {name: '34th&6th', distance: null, predecessor: null},
@@ -105,7 +106,7 @@ function bfs(rootnode, edges, vertices){
 	
 
 bfs(vertices[0], edges, vertices)
-
+```
 
 ## pseudocode:
 	rootNode = vertices[0]
