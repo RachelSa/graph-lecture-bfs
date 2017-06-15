@@ -62,7 +62,7 @@ breadth first search is a way of exploring the connectivity of a graph.
 <br>
 
 
-## What do we want a BFS function to do?
+## How do we make a BFS?
 
 
 	1. Starting with a vertex, we first find all adjacent vertices.
@@ -76,14 +76,35 @@ breadth first search is a way of exploring the connectivity of a graph.
 
 
 ## pseudocode BFS: 
+vertices =
+[
+	 {name: '34th&6th', distance: null, predecessor: null},
+	 {name: '23rd&6th', distance: null, predecessor: null},
+	 {name: '28th&Bwy', distance: null, predecessor: null},
+	 {name: '14th&6th', distance: null, predecessor: null},
+	 {name: '23rd&Bwy', distance: null, predecessor: null},
+	 {name: '14th&Lex', distance: null, predecessor: null},
+	 {name: '23rd&Lex', distance: null, predecessor: null}
+]
 
-	function bfs(rootnode, edges, vertices){
+edges =
+
+[
+	['14th&6th', '23rd&6th'],
+	['23rd&6th', '34th&6th'],
+	['34th&6th', '28th&Bwy'],
+	['28th&Bwy', '23rd&Bwy'],
+	['23rd&Bwy', '14th&Lex'],
+	['14th&Lex', '23rd&Lex']
+]
+
+function bfs(rootnode, edges, vertices){
+	//pseudocode
+
+}
 	
 
-	}
-
-
-
+bfs(vertices[0], edges, vertices)
 
 
 ## pseudocode:
